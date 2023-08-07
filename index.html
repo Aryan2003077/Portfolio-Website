@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Aryan Thapliyal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f0ec017a59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/new.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#strength">Strengths</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Aryan Thapliyal</span></h1>
+        </div>
+    </div>
+</div>
+<!----------about--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a highly motivated and dedicated professional with a passion
+                    for continuous learning and personal growth. With a diverse
+                    background in Computer Science, I bring a unique perspective to my
+                    work. My strong analytical and problem-solving skills enable me to
+                    tackle complex challenges and find innovative solutions. I thrive in
+                    collaborative environments, valuing open communication and
+                    teamwork. I am committed to continuous improvement and staying
+                    updated with the latest industry trends and technologies. I am
+                    seeking new opportunities to apply my skills and contribute to the
+                    success of a dynamic organization</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('course-work')">Course-Work</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Designing Websites</li>
+                            <li><span>Cloud Practitioner</span><br>Google Certified Cloud foundation</li>
+                            <li><span>Mern Full-Stack Developer</span><br>Building Websites on MERN frameworks</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="course-work">
+                        <ul>
+                            <li><span>Data Structures & Algorithm</span><br>Completed the course facilitated by my University(VIT-Vellore)</li>
+                            <li><span>Full-Stack Development</span><br>Completed the Udemy Course by Angela Yu</li>
+                            <li><span>Mern-Stack Development</span><br>Completed the course facilitated by Ethnus</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Btech in Computer Science and Engineering from VIT-Vellore</li>
+                            <li><span>2019</span><br>High School Diploma</li>
+                    </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------strengths------------->
+<div id="strength">
+    <div class="container">
+        <h1 class="sub-title">My Strengths</h1>
+        <div class="strengths-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front End Development</h2>
+                <p>-Skilled with HTML, CSS and JavaScript.</p>
+                <p>-Increasing the spectrum by enhancing my skills on newer frameworks like react.js, node.js and tailwind css.</p>
+                <a href="https://linktr.ee/aryanthapliyal">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>DSA</h2>
+                <p>-Designing and Implementing Data Structures and Algorithms</p>
+                <a href="https://linktr.ee/aryanthapliyal">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-user-tie"></i>
+                <h2>Soft-Skills</h2>
+                <p>-Communication</p>
+                <p>-Project-Management</p>
+                <p>-Leadership</p>
+                <p>-Enthusiasm to learn newer technologies</p>
+                <a href="https://linktr.ee/aryanthapliyal">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------portfolio---------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub=title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>A representation of my attributes and skills on show for the world to view.</p>
+                    <a href=#><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Spotify Web Interface</h3>
+                    <p>A working clone of the popular music streaming platform Spotify.</p>
+                    <a href="https://github.com/Aryan2003077"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Amazon Web Interface</h3>
+                    <p>A working Front end clone of an E-commerce Website.</p>
+                    <a href="https://github.com/Aryan2003077"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.linkedin.com/in/aryan-thapliyal-820334217/" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>aryanthapliyal3@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7001123445</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/aryan.thapliyal.10/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/Aryan07808252"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/in/aryan-thapliyal-820334217/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Aryan2003077"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="images/Aryan_Resume.pdf" download="btn btn2" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i> Aryan Thapliyal.</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxChZudLgusbj2zFLXV_MrSi6_9akXbY89i4EqLRqpgO7Q0Wv4NhTQNY-LWV_1J6NM/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
